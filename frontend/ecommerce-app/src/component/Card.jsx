@@ -1,7 +1,7 @@
 import Button from '@mui/material/Button';
 
 function Card(props) {
-    console.log(props);
+    //console.log(props);
     return (
         <>
             <div className="card-container">

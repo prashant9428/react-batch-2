@@ -1,17 +1,77 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
     margin: 0;
     padding: 0;
 }
-.product{
+
+.filterOption {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+    /* border: 1px solid black; */
+}
+
+.filterOption .filter{
+    margin: 5px;
+    padding: 10px;
+}
+.filterOption .filter > span {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.filterOption .filter>span:hover {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+}
+
+.enable {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+}
+
+.disable {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.filterOption .search > input {
+    margin: 5px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+}
+
+.filterOption .search > button {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    width: 100px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.filterOption .search > button:hover {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+}
+.product {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding:20px;
+    padding: 20px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     flex-direction: column;
     width: 325px;
@@ -22,21 +82,23 @@ body {
     font-weight: 300;
     font-style: normal;
     margin: 10px;
+    text-align: center;
 }
 
 .card {
     padding: 10px;
 }
+
 .card .imageSection {
     text-align: center;
 }
 
 .card .imageSection img {
     width: 300px;
-    height: 300px;
+    height: 270px;
     border-radius: 5px;
 }
 
-.ButtonCss{
-   width: 300px;
+.ButtonCss {
+    width: 300px;
 }
