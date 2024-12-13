@@ -5,7 +5,7 @@ function App() {
  const names = ["prashant","sagar","yogesh","Dhanashree","Priyanka"];
 
  // ! return statement will always have jsx
- // ! props are when you are passing properties from one componet to another component
+ // ! props are when you are passing     properties from one componet to another component
  // ! props are passed in attributes
     return (
        <>
